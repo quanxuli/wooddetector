@@ -1,0 +1,26 @@
+# Python - Bỏ qua các file rác của Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Dataset - Cực kỳ quan trọng để không push hàng nghìn ảnh lên GitHub
+datasets/
+data/*.zip
+data/*.tar
+data/*.gz
+
+# Weights/Models - Bỏ qua các file model nặng
+*.pt
+*.onnx
+*.weights
+*.h5
+runs/
+# Nếu bạn muốn giữ lại 1 file model tốt nhất, hãy dùng dấu !
+# !runs/detect/train/weights/best.pt
+
+# IDE - Bỏ qua cấu hình của trình soạn thảo
+.vscode/
+.idea/
+.DS_Store (cho Mac)
