@@ -1,16 +1,16 @@
-# Wood Defect Detector 🪵🔍
+## Wood Defect Detector 
 
 A computer vision project for real-time detection of defects on wood surfaces. The project includes dataset preprocessing/augmentation notebooks, a YOLO-based training workflow, and a multithreaded client-server application for streaming video sources over UDP and running real-time GPU-accelerated inference.
 
 ---
 
-## 🔗 Dataset Link
+## Dataset Link
 The dataset used in this project is available at:
-👉 **[Download Wood Detection Dataset (Google Drive)](https://drive.google.com/file/d/1qn6Hy3lERitjyNd5ZYOk7j8QahYR2i1B/)**
+ **[Download Wood Detection Dataset (Google Drive)](https://drive.google.com/file/d/1qn6Hy3lERitjyNd5ZYOk7j8QahYR2i1B/)**
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **4 Wood Defect Classes**: Real-time detection of **Crack**, **Dead Knot**, **Live Knot**, and **Marrow**.
 * **Robust Preprocessing & Data Augmentation**: Complete data prep pipeline with Albumentations (pixel-level and spatial transforms) that auto-recalculates bounding boxes.
@@ -21,7 +21,7 @@ The dataset used in this project is available at:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```bash
 wooddetector/
@@ -35,7 +35,7 @@ wooddetector/
 
 ---
 
-## 🛠️ Setup & Installation
+## Setup & Installation
 
 ### Prerequisite Libraries
 To run the client and server desktop applications, install the required python packages:
@@ -49,7 +49,7 @@ pip install PyQt5 opencv-python numpy pillow ultralytics torch
 
 ---
 
-## 💻 How to Use
+## How to Use
 
 ### 1. Preprocessing & Data Augmentation (`Preprocessing.ipynb`)
 Open this notebook in Google Colab to:
